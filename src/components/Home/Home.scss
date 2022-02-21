@@ -1,0 +1,58 @@
+.home {
+
+  img {
+    width: 75%;
+    float: right;
+    border-radius: 7px;
+  }
+
+  .intro {
+    .intro-text {
+      width: 40%;
+      margin-top: 3rem;
+      position: absolute;
+    }
+
+    .bg-faded {
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+  }
+
+  .page-section {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(155, 97, 53, 0.7);
+    border-radius: 0.25rem;
+
+    .cta-inner {
+      position: relative;
+      padding: 3rem;
+      margin: 0.5rem;
+      background-color: rgba(255, 255, 255, 0.85);
+      outline: rgba(155, 97, 53, 0.7) solid 3px;
+      outline-offset: -0.5rem;
+
+      .section-heading {
+        text-transform: uppercase;
+        font-family: 'Raleway';
+
+        .section-heading-upper {
+          display: block;
+          font-size: 1rem;
+          font-weight: 800;
+        }
+
+        .section-heading-lower {
+          display: block;
+          font-size: 3rem;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+}
