@@ -7,7 +7,9 @@ const Home = (): JSX.Element => (
             <div className="container">
                 <div className="intro">
                     <img className="intro-img img-fluid curved-img mb-3 mb-lg-0" id="bootstrap-override"
-                         src="https://www.planetgolf.com/uploads/Jones_walking.jpg"/>
+                         src="https://www.planetgolf.com/uploads/Jones_walking.jpg"
+                         alt="walking"
+                    />
                     <div className="intro-text left-0 text-center bg-faded p-5 rounded">
                         <h2 className="section-heading mb-4">
                             <span className="mb-3">There is an old saying:</span>
