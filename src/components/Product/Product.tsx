@@ -10,14 +10,6 @@ const Product = (): JSX.Element => (
     <div className="product">
         <section className="page-section">
             <div className="container">
-                <div className="card mx-auto">
-                    <div className="card-body">
-                        <h5 className="card-title">Covid 19 Disclaimer</h5>
-                        <p className="card-text">Due to Covid 19, we have taken the year to perfect our product. The
-                            following are photos of our previous models.</p>
-                    </div>
-                </div>
-                <br/>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
